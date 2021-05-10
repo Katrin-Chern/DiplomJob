@@ -43,13 +43,15 @@ header{
     left: 658px;
     font-size: 16px;
 }
-.botton-Über{
+.button-Überuns{
     position: absolute;
     left: 795px;
     border: none;
-    width: 68px;
+    width: 78px;
     height: 40px;
     background-color: white;
+    color: #263640;
+    font-size: 16px;
 }
 .button-Kontakt{
     position: absolute;
@@ -117,15 +119,422 @@ header{
         position: absolute;
         top: 0px;
         left: 623px;
+        z-index: 500;
     } 
-/* footer{
+    .block-services{
+        display: inline-block;
+        position: relative;
+        width: 1920px;
+        height: 1590px;
+        background:#F5F8FA;
+        top: 594px;
+    }
+    .block-services_h{
+        position: absolute;
+        font-size: 24px;
+        left: 352px;
+        top: 172px;
+        color: #263640;
+    }
+    .block-services_text{
+        position: absolute;
+        width: 520px;
+        height: 112px;
+        left: 352px;
+        top: 238px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #929A9F;
+    }
+    .article{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 312px;
+        height: 605px;
+        left: 352px;
+        top: 430px;
+        flex: none;
+}
+.article-image{
+    position: relative;
+    width: 393px;
+    height: 333px;
+    left: -41px;
+    top: -41px;
+}
+.article-h{
+position: static;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #263640;
+}
+.article-text{
+position: static;
+font-size: 16px;
+line-height: 28px;
+color: #929A9F;
+}
+.article-href{
+position: static;
+font-weight: 500;
+font-size: 16px;
+color: #FF9900;
+}
+.article1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 312px;
+    height: 605px;
+    left: 804px;
+    top: 430px;
+    flex: none;
+}
+.article-image1{
+position: relative;
+width: 393px;
+height: 333px;
+left: -41px;
+top: -41px;
+}
+.article-h1{
+position: static;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #263640;
+}
+.article-text1{
+position: static;
+font-size: 16px;
+line-height: 28px;
+color: #929A9F;
+}
+.article-href1{
+position: static;
+font-weight: 500;
+font-size: 16px;
+color: #FF9900;
+}
+.article2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 312px;
+    height: 605px;
+    left: 1256px;
+    top: 430px;
+    flex: none;
+}
+.article-image2{
+position: relative;
+width: 393px;
+height: 333px;
+left: -41px;
+top: -41px;
+}
+.article-h2{
+position: static;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #263640;
+}
+.article-text2{
+position: static;
+font-size: 16px;
+line-height: 28px;
+color: #929A9F;
+}
+.article-href2{
+position: static;
+font-weight: 500;
+font-size: 16px;
+color: #FF9900;
+}
+.block-history{
+position: relative;
+width: 1009px;
+height: 584px;
+top: 1203px;
+left: 352px;
+background: #263640;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2), -50px 100px 0px #F5F8FA;
+}
+.block-history_h{
+position: absolute;
+left: 98px;
+top: 98px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #929A9F;
+}
+.block-history_diplom{
+position: absolute;
+width: 494px;
+height: 132px;
+left: 98px;
+top: 142px;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+}
+.block-history-text{
+position: absolute;
+width: 422px;
+height: 104px;
+left: 98px;
+top: 298px;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.block-line{
+position: absolute;
+width: 494px;
+height: 0px;
+left: 98px;
+top: 458px;
+opacity: 0.2;
+border: 1px solid #FFFFFF;
+}
+.block-history-img{
+position: absolute;
+width: 488px;
+height: 662px;
+left: 768px;
+top: 98px;
+filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.2));
+}
+.button-Lesen{
+position: absolute;
+width: 135px;
+height: 28px;
+top: 482px;
+left: 98px;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #FFFFFF;
+border: none;
+background-color:#263640 ;
+}
+.block-inform{
+display: inline-block;
+position: relative;
+width: 1216px;
+height: 489px;
+left: 352px;
+top: 953px;
+}
+h1{
+position: absolute;
+left: 0px;
+top: 0px;
+color: #263640;
+margin: 0;
+}
+.block-inform-text{
+position: absolute;
+width: 488px;
+height: 84px;
+left: 0px;
+top: 61px;
+font-size: 16px;
+line-height: 28px;
+color: #929A9F;
+}
+.block-inform-button{
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+position: absolute;
+width: 153px;
+height: 40px;
+left: 1063px;
+top: 101px;
+background: #FF9900;
+border: none;
+color: white;
+}
+h3{
+position: absolute;
+width: 235px;
+height: 20px;
+left: 0px;
+top: 225px;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #929A9F;
+}
+.inform-h{
+position: absolute;
+width: 361px;
+height: 60px;
+left: 0px;
+top: 277px;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #263640;
+}
+.block-text-blog{
+position: absolute;
+width: 361px;
+height: 84px;
+left: 0px;
+top: 357px;
+font-size: 16px;
+line-height: 28px;
+color: #929A9F;
+}
+.blog-button{
+position: absolute;
+width: 135px;
+height: 28px;
+top: 461px;
+font-weight: 500;
+font-size: 16px;
+color: #FF9900;
+border: none;
+background-color: white;
+}
+.inform-h1{
+    position: absolute;
+    width: 361px;
+    height: 60px;
+    left: 428px;
+    top: 277px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263640;
+    }
+    .block-text-blog1{
+    position: absolute;
+    width: 361px;
+    height: 84px;
+    left: 428px;
+    top: 357px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #929A9F;
+    }
+    .blog-button1{
+    position: absolute;
+    width: 135px;
+    height: 28px;
+    left: 428px;
+    top: 461px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FF9900;
+    border: none;
+    background-color: white;
+    }
+    .inform-h2{
+        position: absolute;
+        width: 361px;
+        height: 60px;
+        left: 855px;
+        top: 277px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #263640;
+        }
+        .block-text-blog2{
+        position: absolute;
+        width: 361px;
+        height: 84px;
+        left: 855px;
+        top: 357px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #929A9F;
+        }
+        .blog-button2{
+        position: absolute;
+        width: 135px;
+        height: 28px;
+        left: 855px;
+        top: 461px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FF9900;
+        border: none;
+        background-color: white;
+        }
+    .block-kar{
+        display: inline-block;
+        position: relative;
+        width: 1920px;
+        height: 477px;
+        left: 0px;
+        top: 1265px;
+        background: #F5F8FA;
+    }
+    .block-h3{
+position: absolute;
+width: 200px;
+left: 352px;
+top: 101px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #929A9F;
+}
+    .block-h1{
+        position: absolute;
+        width: 284px;
+        height: 44px;
+        left: 352px;
+        top: 137px;
+        color: #263640;
+    }
+    .block-text_lorem{
+        position: absolute;
+        width: 327px;
+        height: 84px;
+        left: 352px;
+        top: 205px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #929A9F;
+    }
+    .block-button_kar{
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 16px;
+        position: absolute;
+        width: 135px;
+        height: 40px;
+        left: 352px;
+        top: 321px;
+        background: #FF9900;
+        border: none;
+        color: white;
+        
+    }
+    .block-kar-img{
+        position: absolute;
+        width: 728px;
+        height: 584px;
+        left: 840px;
+        top: -170px;
+        filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.2));
+}
+footer{
     width: 1920px;
     height: 304px;
     background-color: #263640;
     position: relative;
-	left: 0;
-	margin-bottom: 0;
-    display: inline-block;  
+    display: inline-block; 
+    top: 1263px; 
 }
 .footer-logo{
     position: absolute;
@@ -197,4 +606,4 @@ hr{
     font-size: 14px;
     color: white;
     opacity: 0.5;  
- } */
+ }
