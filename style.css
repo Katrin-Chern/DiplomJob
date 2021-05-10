@@ -1,0 +1,200 @@
+body{
+    font-family: DINPro;  
+}
+header{
+    width: 1216px;
+    height: 40px;
+    top: 64px;
+    position: relative;
+    left: 352px;
+    display: inline-block;  
+}
+.header-logo{
+    position: static;
+}
+.button-Startseite{
+    position: absolute;
+    left: 410px;
+    width: 80px;
+    height: 40px;
+    font-size: 16px; 
+    color: #FF9900;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    background-color: white;
+}
+.button-Leistungen{
+    position: absolute;
+    border: none;
+    background-color: white;
+    width: 105px;
+    height: 40px;
+    left: 523px;
+    font-size: 16px;
+}
+.button-Referenzen{
+    position: absolute;
+    border: none;
+    background-color: white;
+    width: 108px;
+    height: 40px;
+    left: 658px;
+    font-size: 16px;
+}
+.botton-Über{
+    position: absolute;
+    left: 795px;
+    border: none;
+    width: 68px;
+    height: 40px;
+    background-color: white;
+}
+.button-Kontakt{
+    position: absolute;
+    left: 1070px;
+    background-color: orange;
+    width: 146px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+.img-icon{
+    position: absolute;
+    width: 18px;
+    height: 14px;
+    left: 115px;
+    top: 11px;
+}
+.block-content{
+    display: inline-block;  
+    position: relative;
+    top: 300px;
+    left: 352px;
+    width: 470px;
+    height: 302px;
+}
+.block-content_ingenieur{
+    display: flex;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #929A9F;
+   }
+   .block-content_büro{
+       font-size: 32px;
+       color: #263640;
+    }
+    .block-content_text{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #929A9F;
+    }
+    .button-project{
+        width: 209px;
+        height: 40px;
+        background-color: orange;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        align-items: center;
+        border: none;
+    }
+    .block-background{
+        position: absolute;
+        width: 593px;
+        height: 750px;
+        left: 623px;
+        top: 0px;
+        background: #C4C4C4;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2), -50px 100px 0px #F7F8FA;
+    }
+    .block-img{
+        position: absolute;
+        top: 0px;
+        left: 623px;
+    } 
+/* footer{
+    width: 1920px;
+    height: 304px;
+    background-color: #263640;
+    position: relative;
+	left: 0;
+	margin-bottom: 0;
+    display: inline-block;  
+}
+.footer-logo{
+    position: absolute;
+    left: 352px;
+    top: 82px;
+}
+.footer-name{
+    position: absolute;
+    top: 82px;
+    left: 1158px;
+    font-size: 14px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color: white;
+}
+.footer-name1{
+    position: absolute;
+    top: 100px;
+    left: 1158px;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer-adress{
+    position: absolute;
+    top: 82px;
+    left: 1459px;
+    font-size: 14px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color: white; 
+}
+.footer-adress1{
+    position: absolute;
+    top: 100px;
+    left: 1459px;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+hr{
+    position: absolute;
+    width: 1216px;
+    left: 352px;
+    top: 206px;
+    opacity: 0.2;
+    border: 1px solid white;
+}
+.Impressum{
+    position: absolute;
+    top: 246px;
+    left: 348px;
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+ }
+ .Datenschutz{
+    position: absolute;
+    top: 246px;
+    left: 443px;
+    font-size: 14px;
+    color: white;
+    opacity: 0.5; 
+ }
+ .line{
+    position: absolute;
+    top: 246px;
+    left: 427px;
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;  
+ } */
